@@ -29,6 +29,8 @@ public class App {
 			}
 		} while (!correcto);
 
+		System.out.printf("El número %d en decimal es el ", n);
+		
 		int invertido = invertido(n);
 		while (invertido > 0)
 		{
@@ -38,7 +40,7 @@ public class App {
 				digito--;
 			}
 			invertido /= 10;
-			System.out.printf(invertido > 0 ? "- " : "%n");
+			System.out.printf(invertido > 0 ? "- " : "en el sistema de palotes.%n");
 		}
     }
 }
