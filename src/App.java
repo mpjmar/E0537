@@ -2,7 +2,7 @@ public class App {
 
 	public static int invertido (int n) {
 		
-		int invertido = 0;
+		int invertido = 1;
 
 		while (n > 0) {
 			invertido = invertido * 10 + n % 10;
@@ -32,7 +32,7 @@ public class App {
 		System.out.printf("El número %d en decimal es el ", n);
 		
 		int invertido = invertido(n);
-		while (invertido > 0)
+		while (invertido > 1)
 		{
 			int digito = invertido % 10;
 			while (digito > 0) {
